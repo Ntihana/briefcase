@@ -1,29 +1,33 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>Portfolio website</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 
 	<link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+		rel="stylesheet">
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+		integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
+
 <body>
 	<!----hero Section start---->
 
 	<div class="hero">
 		<nav>
-			<h2 class="logo">Brief<span>Case</span></h2>
+			<h2 class="logo">Port<span>folio</span></h2>
 			<ul>
 				<li><a href="#">Home</a></li>
-				<li><a href="#">About Us</a></li>
-				<li><a href="#">Services</a></li>
-				<li><a href="#">Skills</a></li>
-				<li><a href="#">Contact Us</a></li>
+				<li><a href="#about">About Me</a></li>
+				<li><a href="#skills">Skills</a> </li>
+				<li><a href="#contact">Contact Me</a></li>
 			</ul>
-			<a href="#" class="btn">Subscribe</a>
 		</nav>
 
 		<div class="content">
@@ -39,78 +43,111 @@
 	</div>
 
 	<!----About section start---->
-	<section class="about">
+	<section id="about" class="about">
 		<div class="main">
 			<img src="img/Background_image3.jpg">
 			<div class="about-text">
 				<h2>About Me</h2>
 				<h5>Business Analyst & ML Enthusiast
-				<p>I am Business analyst. I am responsible for analysing and evaluating business processes, identifying areas for improvement, and recommending solutions to enhance efficiency, productivity, and profitability. I am also skilled in data analysis, requirements gathering, and stakeholder management, and I use my analytical and problem-solving skills to identify opportunities for process improvement. Beside that I am enthusiastic about using technology to solve complex problems, and looking for new and innovative ways to apply machine learning to a wide range of industries and applications, for compliting those,i use Powerbi,Excel,SQL,Tablue and Knime software for Machine learning Projects.</p>
-				<button type="button">Let's Connect</button>
+					<p>I am Business analyst. I am responsible for analysing and evaluating business processes,
+						identifying areas for improvement, and recommending solutions to enhance efficiency,
+						productivity, and profitability. I am also skilled in data analysis, requirements gathering, and
+						stakeholder management, and I use my analytical and problem-solving skills to identify
+						opportunities for process improvement. Beside that I am enthusiastic about using technology to
+						solve complex problems, and looking for new and innovative ways to apply machine learning to a
+						wide range of industries and applications, for compliting those,i use Powerbi,Excel,SQL,Tablue
+						and Knime software for Machine learning Projects.</p>
+					<button type="button" ><a href="https://api.whatsapp.com/send?phone=+250789950148">Let's Connect</a></button>
 			</div>
 		</div>
 	</section>
 
+	<!-- skills -->
+
+	<section id="skills" class="about">
+		<div class="main">
+			<!-- <img src="img/Background_image3.jpg"> -->
+			<div class="about-text">
+				<h2>My skills</h2>
+				<p style="color: azure;">
+					<h5></h5>
+					<li>Powerbi Desktop</li>
+					<li>Excel</li>
+					<li>Knime Software</li>
+					<li>SQL</li>
+					<LI>Tablue</LI>
+					<Li>SPSS</Li>
+				</p>
+			</div>
+		</div>
+	</section>
+	<section id="Education" class="about">
+		<div class="main">
+			<!-- <img src="img/Background_image3.jpg"> -->
+			<div class="about-text">
+				<h2>Education</h2>
+				<p> <div class="education-item">
+					<h3>Bachelor of Science in Biotechnology</h3>
+					<p class="school">University Of Rwanda</p>
+					<p class="date">Sept2019- May2023</p>
+					<h3> Business Analyst</h3>
+					<p class="school">Azubi Africa</p>
+					<p class="date">Sept2022- Jan2023</p>
+				</p>
+				  </div>
+					
+				</p>
+			</div>
+		</div>
+	</section>
+	<section id="Projects" class="about">
+		<div class="main">
+			<!-- <img src="img/Background_image3.jpg"> -->
+			<div class="about-text">
+				<h2>My Projects</h2>
+				<ul style="color:  #fcfc;">
+					<h5><li>Food and Beverage Sales DashBoard in Powerbi</li>
+						<li>PowerBi Sales Dashboard</li>
+						<li>Prediction of Price of Calfornia House(ML Project)</li>
+						<li>MNIST Project (ML Project)</li>
+						<li>Excel Sales Dashborad</li></h5>
+				  </ul> 
+				  
+				</p>
+			</div>
+		</div>
+	</section>
 	<!-----service section start----------->
 	<div class="service">
 		<div class="title">
 			<h2>Work Experience</h2>
 		</div>
 
-		<div class="box">
-			<div class="card">
+		<div class="box" style="height:50%;">
+			<div class="card" >
 				<i class="fas fa-bars"></i>
-				<h5>Manager  </h5>
-				<div class="pra">
-					<p> I was business analyst,financial planning and procurement  • Assisted in preparation of financial statements • Planning, organizing, and directing the work of the team • Evaluating team performance and providing feedback and coaching • Managing budgets and resources • Making decisions and solving problems related to the team's work • Ensuring compliance with company policies and procedures, as well as with relevant laws and regulations. 
+				<h5>Manager </h5>
+				<div class="pra" >
+				
+					<p> I was business analyst,financial planning and procurement,Assisted in preparation of financial
+						statements,Planning, organizing, and directing the work of the team, Evaluating team
+						performance and providing feedback and coaching, Managing budgets and resources,Making
+						decisions and solving problems related to the team's work, Ensuring compliance with company
+						policies and procedures, as well as with relevant laws and regulations at Ruhango Bakery
 						.</p>
-
 					<p style="text-align: center;">
 						<a class="button" href="#">Read More</a>
 					</p>
 				</div>
 			</div>
 
-			<div class="card">
-				<i class="far fa-user"></i>
-				<h5>Education</h5>
-				<div class="pra">
-
-				<section id="education">
-					<div class="container">
-					  <div class="education-item">
-						<h3> Azubi Africa</h3>
-						<p class="education-date">Sept 2022 - Jan 2023</p>
-						<p class="education-degree">Business analyst</p>
-					  <div class="education-item">
-						<h3> University of Rwanda</h3>
-						<p class="education-date"> Sept 2019 - May 2023</p>
-						<p class="education-degree">Bachelor of Science in Biotechnology</p>
-				  </section>
-					<p style="text-align: center;">
-						<a class="button" href="#">Read More</a>
-					</p>
-				</div>
-			</div>
-
-			<div class="card">
-				<i class="far fa-bell"></i>
-				<h5> My Projects</h5>
-				<div class="pra">
-					<p>.</p>
-
-					<p style="text-align: center;">
-						<a class="button" href="#">Read More</a>
-					</p>
-				</div>
-			</div>
 		</div>
 	</div>
 
 	<!------Contact Me------>
 	<div class="contact-me">
 		<p>Let Me Be Your Business Analyst.</p>
-		<a class="button-two" href="#">Hire Me</a>
+		<a class="button-two" href="mailto:ntihanabayoeric2@gmail.com">Hire Me</a>
 	</div>
 
 	<!------footer start--------->
@@ -118,12 +155,21 @@
 		<p>Eric Ntihanabayo</p>
 		<p>For more information - please click on the link below:</p>
 		<div class="social">
-			<a href="#"><i class="fab n_mula_eric fa-facebook-f"></i></a>
-			<a href="#"><i class="fab n_mula_eric fa-instagram"></i></a>
-			<a href="#"><i class="fab ERIC NTIHANABAYO fa-linkedin"></i></a>
-			<a href="#"><i class="fab ERIC NTIHANABAYO fa-twitter"></i></a>
-			<a href="#"><i class="fab ERIC NTIHANABAYO fa-github"></i></a>
+			<a href="https://www.facebook.com/profile.php?id=100082606875550&mibextid=LQQJ4d"><i class="fab n_mula_eric fa-facebook-f"></i></a>
+			<a href="https://www.instagram.com/n_mula_eric/"><i class="fab n_mula_eric fa-instagram"></i></a>
+			<a href="https://www.linkedin.com/in/eric-ntihanabayo-9582a1231/"><i class="fab ERIC NTIHANABAYO fa-linkedin"></i></a>
+			<a href="https://twitter.com/ericntihanabayo"><i class="fab ERIC NTIHANABAYO fa-twitter"></i></a>
+			<a href="https://github.com/Ntihanab?tab=projects"><i class="fab ERIC NTIHANABAYO fa-github"></i></a>
 		</div>
+		<section id="contact">
+			<p>Contact Me</p>
+			<ul>
+			  <li><i class="fas fa-envelope"></i>ntihanabayoeric2@gmail.com</li>
+			  <li><i class="fas fa-phone"></i> +250789950148 +250785448713</li>
+			  <li><i class="fas fa-map-marker-alt"></i> Kn7, Kigali, Rwanda</li>
+			</ul>
+
+		  </section>
 		<p class="end">CopyRight By Eric Ntihanabayo</p>
 	</footer>
 </body>
