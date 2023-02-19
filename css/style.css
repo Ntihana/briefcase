@@ -81,9 +81,9 @@ h3{
 	margin-bottom: 50px;
 }
 h4{
-	color: #fcfc;
+	color: white;
 	letter-spacing: 2px;
-	font-size: 20px;
+	
 }
 .newslatter form{
 	width: 380px;
@@ -134,14 +134,14 @@ h4{
 }
 .about-text h2{
 	color: white;
-	font-size: 75px;
+	font-size: x-large;
 	text-transform: capitalize;
 	margin-bottom: 20px;
 }
 .about-text h5{
 	color: white;
 	letter-spacing: 2px;
-	font-size: 22px;
+	font-size: x-large;
 	margin-bottom: 25px;
 	text-transform: capitalize;
 }
@@ -149,7 +149,7 @@ h4{
 	color: #fcfc;
 	letter-spacing: 1px;
 	line-height: 28px;
-	font-size: 18px;
+	font-size: x-large;
 	margin-bottom: 45px;
 }
 button{
@@ -187,8 +187,8 @@ button:hover{
 	min-height: 400px;
 }
 .card{
-	height: 365px;
-	width: 335px;
+	height: 600px;
+	width: 400px;
 	padding: 20px 35px;
 	background: #191919;
 	border-radius: 20px;
